@@ -60,7 +60,7 @@ def create_snowflake(z_pos):
 snowflake = create_snowflake(2.01)
 
 
-# Metodo de rotacion en x
+# Metodo de rotacion en y
 def rotate_y(x, y, z, angle):
     rad = math.radians(angle)
     c, s = math.cos(rad), math.sin(rad)
